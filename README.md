@@ -1,6 +1,6 @@
 # Small Projects
 
-### 1. 개요
+### - 개요
 
 ---
 
@@ -10,7 +10,7 @@
 
 
 
-### 2. README.md 작성 포맷
+### - README.md 작성 포맷
 
 ---
 
@@ -18,13 +18,16 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
-## TITLE : 프로젝트 제목
+#### 1. TITLE : 프로젝트 제목
+
+---
+
 
 프로젝트에 대한 개요
 
 <br>
 
-### language & tool 
+#### 2. language & tool 
 
 ---
 
@@ -33,7 +36,7 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
-### Instructions
+#### 3. Instructions
 
 ---
 
@@ -41,7 +44,7 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
-### what functions can be served
+#### 4. what functions can be served
 
 ---
 
@@ -50,7 +53,7 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
-### Reflection
+#### 5. Reflection
 
 ---
 
