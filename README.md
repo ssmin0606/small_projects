@@ -18,7 +18,11 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
+<<<<<<< HEAD
 #### 1. TITLE : 프로젝트 제목
+=======
+### 1. TITLE : 프로젝트 제목
+>>>>>>> 49ab028700033142d5bdab94f5002aca12c7ab18
 
 ---
 
@@ -27,7 +31,11 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
+<<<<<<< HEAD
 #### 2. language & tool 
+=======
+### 2. language & tool 
+>>>>>>> 49ab028700033142d5bdab94f5002aca12c7ab18
 
 ---
 
@@ -36,7 +44,11 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
+<<<<<<< HEAD
 #### 3. Instructions
+=======
+### 3. Instructions
+>>>>>>> 49ab028700033142d5bdab94f5002aca12c7ab18
 
 ---
 
@@ -44,7 +56,11 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
+<<<<<<< HEAD
 #### 4. what functions can be served
+=======
+### 4. what functions can be served
+>>>>>>> 49ab028700033142d5bdab94f5002aca12c7ab18
 
 ---
 
@@ -53,10 +69,13 @@ small_project를 진행하고 이와 관련된 `README`를 작성할 때 아래�
 
 <br>
 
+<<<<<<< HEAD
 #### 5. Reflection
+=======
+### 5. Reflection
+>>>>>>> 49ab028700033142d5bdab94f5002aca12c7ab18
 
 ---
 
 - 느낀점
-
 
