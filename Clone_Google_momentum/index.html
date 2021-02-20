@@ -8,16 +8,24 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <!-- js-clock은 js를 위한 클래스임을 표시 -->
   <div class="js-clock">
     <h1>00:00</h1>
   </div>
+  <!-- js-form은 js를 위한 클래스임을 표시 -->
   <form class="js-form form">
     <input type="text" placeholder="What is your name?">
   </form>
   <!-- 여기서 js를 앞에 붙여놓는 이유는 
     class가 js인지 css인지 구분하기 위해 -->
   <h4 class="js-greetings greetings"></h4>
+  <form class="js-toDoForm">
+    <input type="text" placeholder="Write a to do"/>
+  </form>
+  <ul class="js-toDoList">  
+  </ul>
   <script src="clock.js"></script>
   <script src="greeting.js"></script>
+  <script src="todo.js"></script>
 </body>
 </html>
