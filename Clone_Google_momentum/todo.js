@@ -5,7 +5,22 @@ const toDoForm = document.querySelector(".js-toDoForm"),
 
 // 재사용성, 오류 최소화를 위해서 'toDos' string을 변수에 저장
 const TODOS_LS = 'toDos';
-const toDos = [];
+// toDos의 요소가 제거와 추가가 반복적으로 일어나기 때문에 let을 씀
+let toDos = [];
+
+
+// todo 지워주는 함수
+function deleteToDo(event){
+  const btn = event.target;
+  const li = btn.parentNode;
+  toDoList.removeChild(li);
+  // 제거한 toDo를 제외한 나머지 toDo 리스트
+  const cleanToDos = toDos.filter(function(toDo){
+    return toDo.id !== parseInt(li.id);
+  });
+  toDos = cleanToDos;
+  saveToDos();
+}
 
 
 function saveToDos(){
@@ -13,7 +28,9 @@ function saveToDos(){
   localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
 
-// todolist 생성/보여주는 함수
+// toDos 생성
+// toDos 보여주고
+// saveToDos 호출하는 함수
 function paintToDo(text){
   // li을 생성
   const li = document.createElement("li");
@@ -22,6 +39,7 @@ function paintToDo(text){
   const span = document.createElement("span");
   const newId = toDos.length + 1;
   delBtn.innerText = "❌";
+  delBtn.addEventListener("click", deleteToDo)
   span.innerText = text;
   // li에 추가
   li.appendChild(span);
