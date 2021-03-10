@@ -4,7 +4,7 @@ Build my own PaintBoard using VanillaJS
 
 <br>
 
-![webpage image](./README.assets/image-20210227153801208.png)
+![webpage image](.\README.assets\image-20210310225755332.png)
 
 <br>
 
@@ -12,8 +12,9 @@ Build my own PaintBoard using VanillaJS
 
 ---
 
-
-
-- 
+- Paint
+- Fill
+- provide many colors
+- changeable brush size
 
 <br>
