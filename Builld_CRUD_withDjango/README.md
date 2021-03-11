@@ -2,7 +2,7 @@
 
 <br>
 
-#### 1. Overview
+### 1. Overview
 
 ---
 
@@ -30,7 +30,7 @@ build CRUD with Django (python)
 
 
 
-#### 2. language & tool 
+### 2. language & tool 
 
 ---
 
@@ -42,7 +42,7 @@ build CRUD with Django (python)
 <br>
 
 
-#### 3. what functions can be served
+### 3. what functions can be served
 ---
 
 - Create
@@ -52,7 +52,7 @@ build CRUD with Django (python)
 
 <br>
 
-#### 4. Reflection
+### 4. Reflection
 ---
 
 - CRUD 게시판을 처음 만들어보았습니다. 아직 CSS, JavaScript이 미숙합니다
