@@ -6,7 +6,7 @@
 ---
 
 
-Create simple `Clock`
+
 
 <br>
 
@@ -14,8 +14,8 @@ Create simple `Clock`
 ### 2. language & tool 
 ---
 
-- JavaScript( + HTML, CSS )
-- Visual Studio
+- 
+- 
 
 <br>
 
@@ -23,7 +23,7 @@ Create simple `Clock`
 ### 3. what functions can be served
 ---
 
-- provide clock
+- 
 
 <br>
 
