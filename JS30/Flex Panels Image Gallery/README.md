@@ -9,7 +9,7 @@ Creating Image Gallery
 
 <br>
 
-![proto](\README.assets\proto.gif)
+![ezgif.com-gif-maker](\README.assets\ezgif.com-gif-maker.gif)
 
 <br>
 
