@@ -9,7 +9,7 @@ changing blur, spacing, color effect on photo
 
 <br>
 
-![prototype](.\README.assets\prototype.gif)
+![prototype](README.assets\prototype.gif)
 
 <br>
 
