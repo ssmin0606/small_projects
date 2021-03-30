@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>질문!</h1>
+  <hr>
+  {% for vote in votes %}
+    <h3>질문{{ vote.pk }}: <a href="{% url 'balance:detail' vote.pk %}">{{ vote.title }}</a></h3>
+  {% endfor %}
+{% endblock %}
