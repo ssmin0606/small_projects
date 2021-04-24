@@ -5,8 +5,9 @@
 ### 1. Overview
 ---
 
-
 Create simple `Clock`
+
+![show](README.assets\ezgif.com-gif-maker (4).gif)
 
 <br>
 
@@ -26,9 +27,4 @@ Create simple `Clock`
 - provide clock
 
 <br>
-
-### 4. Note
----
-
-- 
 

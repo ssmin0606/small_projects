@@ -7,15 +7,15 @@
 
 
 
-
 <br>
 
 
 ### 2. language & tool 
 ---
 
-- 
-- 
+- JavaScript
+- HTML, CSS
+- Visual Studio Code
 
 <br>
 

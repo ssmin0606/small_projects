@@ -5,8 +5,9 @@
 ### 1. Overview
 ---
 
-
 Create Drum Kit🥁
+
+![show](README.assets\ezgif.com-gif-maker (3).gif)
 
 <br>
 
@@ -23,12 +24,7 @@ Create Drum Kit🥁
 ### 3. what functions can be served
 ---
 
-- provide clock
+- provide drum kit
 
 <br>
-
-### 4. Note
----
-
-- 
 

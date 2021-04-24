@@ -7,7 +7,7 @@
 
 비디오 플레이어 기능 구현
 
-**이미지 첨부 필요(GIF)**
+![show](README.assets\ezgif.com-gif-maker (1).gif)
 
 <br>
 

@@ -7,6 +7,8 @@
 
 - `shift`를 눌러서 여러개를 동시에 체크할 수 있는 체크박스 기능 구현
 
+![show](\README.assets\ezgif.com-gif-maker.gif)
+
 
 <br>
 
