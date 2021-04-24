@@ -7,7 +7,7 @@
 
 Create simple `Clock`
 
-![show](README.assets/ezgif.com-gif-maker (4).gif)
+![show](README.assets/show_img.gif)
 
 <br>
 
