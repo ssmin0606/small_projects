@@ -7,7 +7,7 @@
 
 비디오 플레이어 기능 구현
 
-![show](README.assets/show_img.gif)
+![show](README.assets/show.gif)
 
 <br>
 

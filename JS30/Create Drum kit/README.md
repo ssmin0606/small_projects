@@ -7,7 +7,7 @@
 
 Create Drum Kit🥁
 
-![show](README.assets/show_img.gif)
+![show](README.assets/show.gif)
 
 <br>
 

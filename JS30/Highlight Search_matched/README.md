@@ -7,7 +7,7 @@
 
 검색어를 입력하면 해당 문자열이 포함된 것을 찾아준다.
 
-![show](README.assets/show_img.gif)
+![show](README.assets/show.gif)
 
 <br>
 
