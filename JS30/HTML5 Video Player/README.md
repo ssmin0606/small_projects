@@ -7,7 +7,7 @@
 
 비디오 플레이어 기능 구현
 
-![show](README.assets\ezgif.com-gif-maker (1).gif)
+![show](README.assets/ezgif.com-gif-maker (1).gif)
 
 <br>
 

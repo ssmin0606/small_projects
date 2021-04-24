@@ -7,7 +7,7 @@
 
 Create Drum Kit🥁
 
-![show](README.assets\ezgif.com-gif-maker (3).gif)
+![show](README.assets/ezgif.com-gif-maker (3).gif)
 
 <br>
 

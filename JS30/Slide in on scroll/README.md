@@ -7,7 +7,7 @@
 
 `scroll`을 이동하는 것에 따라서 페이지상에 이미지가 나타나거나 숨기는 기능을 구현
 
-![show](\README.assets\ezgif.com-gif-maker.gif)
+![show](\README.assets/ezgif.com-gif-maker.gif)
 
 
 
