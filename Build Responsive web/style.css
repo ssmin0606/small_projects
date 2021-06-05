@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 812px) {
+  body {
+    margin: 0px;
+  }
+
+  .navbar-user {
+    display: none;
+  }
+  
+  .navbar {
+    display: none;
+  }
+  
+  .navbar-menu {
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    margin: 1rem;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+  }
+
+  .search-icon {
+    margin: 1rem;
+  }
+
+  .product-search {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url('https://picsum.photos/812/1280');
+  }
+
+  .searchbar {
+    display: flex;
+    border: 0.15rem solid white;
+    border-radius: 1.3rem;
+    width: 70vw;
+    padding: 0.5rem;
+  }
+
+  .searchbar div {
+    margin-left: 0.5rem;
+  }
+  .searchbar input {
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-right:0px; 
+    border-top:0px; 
+    border-left: 1px solid gray; 
+    border-bottom:0px;
+    padding-left : 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .searchbar i {
+    right: 0px;
+  }
+
+  .search-select {
+    position: relative;
+  }
+
+  select {
+    appearance: none;
+    background: url(https://stackoverflow.com/favicon.ico) 96% / 20% no-repeat #EEE;
+  }
+
+
+
+}
