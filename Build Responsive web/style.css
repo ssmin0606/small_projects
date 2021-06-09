@@ -1,4 +1,8 @@
 @media (min-width: 320px) and (max-width: 812px) {
+  html {
+    font-size: 100%;
+  }
+
   body {
     margin: 0px;
   }
@@ -12,7 +16,7 @@
   }
   
   .navbar-menu {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(44, 43, 43, 1.2);
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -31,8 +35,14 @@
     background-color: white;
     margin: 3px;
   }
-  
+  .navbar-menu h1 {
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+  }
+
   .logo {
+    font-size: 5vw;
     text-decoration: none;
     color: white;
   }
@@ -47,8 +57,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
     background-image: url('https://picsum.photos/812/1280');
+  }
+
+
+  .search-description {
+    width: 90%;
+    font-size: 2.4rem;
+    text-align: center;
   }
 
   .searchbar {
@@ -62,6 +79,7 @@
   .searchbar div {
     margin-left: 0.5rem;
   }
+
   .searchbar input {
     background-color: transparent;
     outline: none;
@@ -72,10 +90,11 @@
     border-bottom:0px;
     padding-left : 0.5rem;
     margin-left: 0.5rem;
+    flex-grow: 2;
   }
 
   .searchbar i {
-    right: 0px;
+    flex-grow: 0.3;
   }
 
   .search-select {
@@ -87,6 +106,53 @@
     background: url(https://stackoverflow.com/favicon.ico) 96% / 20% no-repeat #EEE;
   }
 
+  .product-category {
+    height: 80vh;
+  }
 
+  .category-description {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(44, 43, 43, 1.2);
+    color: whitesmoke;
+    text-align: center;
+  }
 
+  .category-description div {
+    margin: 0.5rem 0;
+  }
+
+  .category-description-main {
+    width: 60%;
+    font-size: 2.4rem;
+  }
+
+  .category-description-sub {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .category-kinds {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .category-kind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.02rem solid gray;
+    background-color: rgba(44, 43, 43, 1.2);
+  }
+
+  .category-kind > * {
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .category-kinds > :nth-child(odd) {
+    border-right: 0.02rem solid gray;
+  }
 }
