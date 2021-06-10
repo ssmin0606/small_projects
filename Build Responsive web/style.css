@@ -16,7 +16,7 @@
   }
   
   .navbar-menu {
-    background-color: rgba(44, 43, 43, 1.2);
+    background-color: rgba(0, 0, 0, 0.89);
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,8 @@
 
   .search-description {
     width: 90%;
-    font-size: 2.4rem;
+    font-size: 150%;
+    /* 2.4rem */
     text-align: center;
   }
 
@@ -106,11 +107,8 @@
     background: url(https://stackoverflow.com/favicon.ico) 96% / 20% no-repeat #EEE;
   }
 
-  .product-category {
-    height: 80vh;
-  }
 
-  .category-description {
+  .category-description, .topics-description {
     display: flex;
     height: 30vh;
     flex-direction: column;
@@ -121,26 +119,31 @@
     text-align: center;
   }
 
-  .category-description div {
-    margin: 0.5rem 0;
+  .topics-description {
+    border-top: 0.02rem solid gray;
   }
 
-  .category-description-main {
+  .category-description div, .topics-description div {
+    margin: 0.5rem 0;
+
+  }
+
+  .category-description-main, .topics-description-main {
     width: 60%;
     font-size: 2.4rem;
   }
 
-  .category-description-sub {
+  .category-description-sub, .topics-description-sub {
     width: 70%;
     font-size: 1.2rem;
   }
 
-  .category-kinds {
+  .category-kinds, .topics-kinds {
     display: grid;
     grid-template-columns: auto auto;
   }
 
-  .category-kind {
+  .category-kind, .topic-kind {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,11 +151,152 @@
     background-color: rgba(44, 43, 43, 1.2);
   }
 
-  .category-kind > * {
-    margin: 1rem 0 0.5rem 0;
+  .category-kind img, .topic-kind img {
+    margin: 3rem 0 2rem 0;
+    width: 50%;
+  }
+
+  .category-kind a, .topic-kind a {
+    margin: 0 0 2rem 0;
+    text-decoration: none;
+    color: whitesmoke;
   }
 
   .category-kinds > :nth-child(odd) {
     border-right: 0.02rem solid gray;
+  }
+
+  .topics-kinds > :nth-child(odd) {
+    border-right: 0.02rem solid gray;
+  }
+
+  .recent-searched {
+    position: relative;
+  }
+
+  .customer-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(44, 43, 43, 1.2);
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .customer-care img {
+    width: 80%;
+    margin: 4rem 3rem 0 3rem;
+
+  }
+
+  .customer-care-main {
+    font-size: 2.4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .customer-care-sub {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.521);
+    margin: 0 2.5rem 0 2.5rem;
+  }
+
+  .customer-care-button {
+    margin: 2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 0.01rem solid whitesmoke;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+  }
+
+  .footer-main {
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 2.8rem 2.5rem;
+  }
+
+  .footer-main .title {
+    display: inline-block;
+    color: whitesmoke;
+    margin-top: 1rem;
+  }
+
+  .footer-main ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .footer-main li {
+    margin-bottom: 0.4rem;
+  }
+
+  .footer-main a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+  }
+
+  .footer-main a:hover {
+    color: rgb(13, 147, 236);
+    text-decoration: underline;
+  }
+
+  .footer-sub {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.8rem 2.5rem;
+  }
+
+  .footer-searchbar {
+    display: flex;
+    border: 0.1rem solid gray;
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-searchbar input {
+    font-size: 1rem;
+    background-color: black;
+    outline: none;
+    border:none;
+    border-right:0px; 
+    border-top:0px; 
+    border-bottom:0px;
+    padding-left : 0.5rem;
+    margin-left: 0.5rem;
+    flex-grow: 2;
+    width: 100%;
+  }
+
+  .footer-sub a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 0.8rem;
+  }
+
+  .footer-searchbar > i {
+    background-color: white;
+  }
+
+  .follow-icons {
+    margin-top: 0.8rem;
+    display: flex;
+    width: 90%;
+  }
+
+  .footer-sub span {
+    color: whitesmoke;
+    display: block;
+  }
+
+  .icons {
+    margin-left: 2rem;
+    width: 70%;
+  }
+
+  .icons a {
+    margin-right: 1rem;
   }
 }

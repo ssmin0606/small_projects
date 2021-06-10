@@ -10,7 +10,6 @@
 
 
 
-
 ### 해결해야할 이슈
 
 ---
@@ -19,3 +18,22 @@
 - search-bar가 화면을 줌인하면 안에 있는 내용물들이 div를 벗어난다..
 
 - font-size는 어떻게 주는 것이 좋은지? (px, %, vw, vh, em, rem)
+- 다른 사이트들을 보면 화면을 줄였다 키웠다 해도 사이즈 그대로 작았다가 커지는 데 어떻게 하는건지
+
+
+
+- ![image-20210610105659694](D:\STUDY\clone coding (시작pull 끝push 必)\Build Responsive web\README.assets\image-20210610105659694.png)
+
+   영역밖으로 이동하게 됨
+
+
+
+- vh로 section의 크기를 주게 되면, 그 밑에 있는 section이 위로 올라옴..
+
+![image-20210610113318561](D:\STUDY\clone coding (시작pull 끝push 必)\Build Responsive web\README.assets\image-20210610113318561.png)
+
+
+
+
+
+- customer care 부분에서 정사각형 이미지로  어떻게 자르는지?
