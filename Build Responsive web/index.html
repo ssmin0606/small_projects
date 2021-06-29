@@ -12,38 +12,21 @@
     <div class="navbar-user">
       <i></i>
       <span>AIDA VERA</span>
-      <input type="button" value="LOGOUT"></input>
+      <button>LOGOUT</button>
     </div>
     <div class="navbar-menu">
       <a class="hamburger">
+        <!-- :after, :before 활용하여 수정 -->
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </a>
-      <h1><a href="#" class="logo">
+      <button class="logo">
         LOGO
-      </a></h1>
+      </button>
       <div class="search-icon">
         <i class="fas fa-search"></i>
       </div>
-      <nav class="navbar">
-          <a href="#" class="nav-link">
-            PRODUCT SUPPORT
-          </a>
-          <a href="#" class="nav-link">
-            TOPICS
-          </a>
-          <a href="#" class="nav-link">
-            TRAINING
-          </a>
-          <a href="#" class="nav-link">
-            NEWSLETTERS
-          </a>
-          <a href="#" class="nav-link">
-            ADMIN
-          </a>
-          <i></i>
-      </nav>
     </div>
 
     <!-- 메인 -->
@@ -51,7 +34,7 @@
       <!-- 제품 검색 -->
       <section class="product-search">
           <h2 class="search-description">
-            Know <b>your Product / Serial Number?</b>
+            Know <span style="font-weight: bold;">your Product / Serial Number?</span>
           </h2>
           <form class="searchbar">
             <div class="search-select">
@@ -62,7 +45,7 @@
               </select>
             </div>
             <input type="text" placeholder="Enter your model number" name="" id="">
-            <i>O</i>
+            <input type="submit" class="fas fa-search" value="&#xf002;">
           </form>
       </section>
       <!-- 제품 카테고리 -->
@@ -81,52 +64,76 @@
         <!-- 카테고리 종류들 -->
         <div class="category-kinds">
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="ranges">
-            <a href="#">RANGES</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              RANGES
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="cooktops">
-            <a href="#">COOKTOPS</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              COOKTOPS
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="wallovens">
-            <a href="#">WALL OVENS</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              WALL OVENS
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="ventilation">
-            <a href="#">VENTILATION</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              VENTILATION
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="microwaves">
-            <a href="#">MICROWAVES</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              MICROWAVES
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="warmingdrawer">
-            <a href="#">WARMING DRAWER</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              WARMING DRAWER
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="outdoor">
-            <a href="#">OUTDOOR</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              OUTDOOR
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="refrigeration">
-            <a href="#">REFRIGERATION</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              REFRIGERATION
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="winebeverage">
-            <a href="#">WINE & BEVERAGE</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              WINE & BEVERAGE
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="dishwashers">
-            <a href="#">DISHWASHERS</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              DISHWASHERS
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="accessories">
-            <a href="#">ACCESSORIES</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              ACCESSORIES
+            </a>
           </div>
           <div class="category-kind">
-            <img src="https://picsum.photos/1000" alt="coofesystems">
-            <a href="#">COOFEE SYSTEMS</a>
+            <a href="#">
+              <img src="https://picsum.photos/1000" alt="ranges">
+              COFFEE SYSTEMS
+            </a>
           </div>
         </div>
       </section>
@@ -176,9 +183,9 @@
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
           <div class="searched-item">
             <img src="https://picsum.photos/300" alt="ranges">
@@ -186,18 +193,18 @@
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
           <div class="searched-item">
             <img src="https://picsum.photos/300" alt="accessories">
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
           <div class="searched-item">
             <img src="https://picsum.photos/300" alt="cooktops">
@@ -205,9 +212,9 @@
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
           <div class="searched-item">
             <img src="https://picsum.photos/300" alt="ventilation">
@@ -215,9 +222,9 @@
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
           <div class="searched-item">
             <img src="https://picsum.photos/300" alt="ranges">
@@ -225,9 +232,9 @@
             <p class="searched-description">
               this is description about searched that you did!
             </p>
-            <div class="searched-productid">
+            <a href="#" class="searched-productid">
               B04RKES304KEFY
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -333,9 +340,7 @@
         </div>
         <div class="footer-sub">
           <form action="#" class="footer-searchbar">
-            <label for=""></label>
             <input type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
           </form>
           <a href="#">SITEMAP</a>
           <a href="#">PRIVACY POLICY</a>

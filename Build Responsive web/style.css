@@ -1,302 +1,308 @@
-@media (min-width: 320px) and (max-width: 812px) {
-  html {
-    font-size: 100%;
-  }
+html {
+  font-size: 100%;
+}
 
-  body {
-    margin: 0px;
-  }
+body {
+  margin: 0px;
+}
 
-  .navbar-user {
-    display: none;
-  }
-  
-  .navbar {
-    display: none;
-  }
-  
-  .navbar-menu {
-    background-color: rgba(0, 0, 0, 0.89);
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid gray;
-  }
-  
-  .hamburger {
-    cursor: pointer;
-    margin: 1rem;
-  }
+.navbar-user {
+  display: none;
+}
 
-  .hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 3px;
-  }
-  .navbar-menu h1 {
-    margin: 0;
-    text-align: center;
-    display: inline-block;
-  }
+.navbar {
+  display: none;
+}
 
-  .logo {
-    font-size: 5vw;
-    text-decoration: none;
-    color: white;
-  }
+.navbar-menu {
+  background-color: rgba(0, 0, 0, 0.89);
+  height: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
 
-  .search-icon {
-    margin: 1rem;
-  }
+.hamburger {
+  cursor: pointer;
+  margin: 1rem;
+}
 
-  .product-search {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background-image: url('https://picsum.photos/812/1280');
-  }
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+}
+.navbar-menu h1 {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+}
 
+.logo {
+  font-size: 2.8rem;
+  color: white;
+  padding: 0;
+  border: none;
+  background: none;
+}
 
-  .search-description {
-    width: 90%;
-    font-size: 150%;
-    /* 2.4rem */
-    text-align: center;
-  }
+.search-icon {
+  margin: 1rem;
+}
 
-  .searchbar {
-    display: flex;
-    border: 0.15rem solid white;
-    border-radius: 1.3rem;
-    width: 70vw;
-    padding: 0.5rem;
-  }
-
-  .searchbar div {
-    margin-left: 0.5rem;
-  }
-
-  .searchbar input {
-    background-color: transparent;
-    outline: none;
-    border:none;
-    border-right:0px; 
-    border-top:0px; 
-    border-left: 1px solid gray; 
-    border-bottom:0px;
-    padding-left : 0.5rem;
-    margin-left: 0.5rem;
-    flex-grow: 2;
-  }
-
-  .searchbar i {
-    flex-grow: 0.3;
-  }
-
-  .search-select {
-    position: relative;
-  }
-
-  select {
-    appearance: none;
-    background: url(https://stackoverflow.com/favicon.ico) 96% / 20% no-repeat #EEE;
-  }
+.product-search {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 28rem;
+  background-image: url('https://picsum.photos/812/1280');
+}
 
 
-  .category-description, .topics-description {
-    display: flex;
-    height: 30vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(44, 43, 43, 1.2);
-    color: whitesmoke;
-    text-align: center;
-  }
+.search-description {
+  width: 90%;
+  font-size: 3.3rem;
+  text-align: center;
+}
 
-  .topics-description {
-    border-top: 0.02rem solid gray;
-  }
+.searchbar {
+  display: flex;
+  border: 0.15rem solid white;
+  border-radius: 1.3rem;
+  width: 38rem;
+  padding: 0.5rem;
+}
 
-  .category-description div, .topics-description div {
-    margin: 0.5rem 0;
+.searchbar div {
+  margin-left: 0.5rem;
+}
 
-  }
+.searchbar input {
+  background-color: transparent;
+  outline: none;
+  border-right:0px; 
+  border-top:0px; 
+  border-left: 1px solid gray; 
+  border-bottom:0px;
+  padding-left : 0.5rem;
+  margin-left: 0.5rem;
+  flex-grow: 2;
+}
 
-  .category-description-main, .topics-description-main {
-    width: 60%;
-    font-size: 2.4rem;
-  }
+.searchbar i {
+  flex-grow: 0.3;
+}
 
-  .category-description-sub, .topics-description-sub {
-    width: 70%;
-    font-size: 1.2rem;
-  }
+.searchbar button {
+  margin: 0px;
+  padding: 0px;
+}
 
-  .category-kinds, .topics-kinds {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
+.search-select {
+  position: relative;
+}
 
-  .category-kind, .topic-kind {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 0.02rem solid gray;
-    background-color: rgba(44, 43, 43, 1.2);
-  }
+select {
+  appearance: none;
+  background: url(https://stackoverflow.com/favicon.ico) 96% / 20% no-repeat #EEE;
+}
 
-  .category-kind img, .topic-kind img {
-    margin: 3rem 0 2rem 0;
-    width: 50%;
-  }
 
-  .category-kind a, .topic-kind a {
-    margin: 0 0 2rem 0;
-    text-decoration: none;
-    color: whitesmoke;
-  }
+.category-description, .topics-description {
+  display: flex;
+  height: 25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(44, 43, 43, 1.2);
+  color: whitesmoke;
+  text-align: center;
+}
 
-  .category-kinds > :nth-child(odd) {
-    border-right: 0.02rem solid gray;
-  }
+.topics-description {
+  border-top: 0.02rem solid gray;
+}
 
-  .topics-kinds > :nth-child(odd) {
-    border-right: 0.02rem solid gray;
-  }
+.category-description div, .topics-description div {
+  margin: 0.5rem 0;
 
-  .recent-searched {
-    position: relative;
-  }
+}
 
-  .customer-care {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(44, 43, 43, 1.2);
-    color: whitesmoke;
-    text-align: center;
-  }
+.category-description-main, .topics-description-main {
+  width: 60%;
+  font-size: 3.5rem;
+}
 
-  .customer-care img {
-    width: 80%;
-    margin: 4rem 3rem 0 3rem;
+.category-description-sub, .topics-description-sub {
+  width: 70%;
+  font-size: 1.8rem;
+}
 
-  }
+.category-kinds, .topics-kinds {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
-  .customer-care-main {
-    font-size: 2.4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-  .customer-care-sub {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.521);
-    margin: 0 2.5rem 0 2.5rem;
-  }
+.category-kind, .topic-kind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.02rem solid gray;
+  background-color: rgba(44, 43, 43, 1.2);
+}
 
-  .customer-care-button {
-    margin: 2rem;
-    font-size: 0.9rem;
-    text-decoration: none;
-    color: whitesmoke;
-    border: 0.01rem solid whitesmoke;
-    padding: 0.4rem 2rem 0.4rem 2rem;
-  }
+.category-kind img, .topic-kind img {
+  margin: 3rem 0 2rem 0;
+  width: 50%;
+}
 
-  .footer-main {
-    background-color: rgba(0, 0, 0, 0.89);
-    padding: 2.8rem 2.5rem;
-  }
+.category-kind a, .topic-kind a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 2rem 0;
+  text-decoration: none;
+  color: whitesmoke;
+}
 
-  .footer-main .title {
-    display: inline-block;
-    color: whitesmoke;
-    margin-top: 1rem;
-  }
+.category-kinds > :nth-child(odd) {
+  border-right: 0.02rem solid gray;
+}
 
-  .footer-main ul {
-    padding: 0;
-    list-style-type: none;
-  }
+.topics-kinds > :nth-child(odd) {
+  border-right: 0.02rem solid gray;
+}
 
-  .footer-main li {
-    margin-bottom: 0.4rem;
-  }
+.recent-searched {
+  position: relative;
+}
 
-  .footer-main a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.521);
-    cursor: pointer;
-  }
+.customer-care {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(44, 43, 43, 1.2);
+  color: whitesmoke;
+  text-align: center;
+}
 
-  .footer-main a:hover {
-    color: rgb(13, 147, 236);
-    text-decoration: underline;
-  }
+.customer-care img {
+  width: 80%;
+  margin: 4rem 3rem 0 3rem;
 
-  .footer-sub {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 2.8rem 2.5rem;
-  }
+}
 
-  .footer-searchbar {
-    display: flex;
-    border: 0.1rem solid gray;
-    width: 95%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
+.customer-care-main {
+  font-size: 2.4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.customer-care-sub {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.521);
+  margin: 0 2.5rem 0 2.5rem;
+}
 
-  .footer-searchbar input {
-    font-size: 1rem;
-    background-color: black;
-    outline: none;
-    border:none;
-    border-right:0px; 
-    border-top:0px; 
-    border-bottom:0px;
-    padding-left : 0.5rem;
-    margin-left: 0.5rem;
-    flex-grow: 2;
-    width: 100%;
-  }
+.customer-care-button {
+  margin: 2rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: whitesmoke;
+  border: 0.01rem solid whitesmoke;
+  padding: 0.4rem 2rem 0.4rem 2rem;
+}
 
-  .footer-sub a {
-    text-decoration: none;
-    color: whitesmoke;
-    margin-top: 0.8rem;
-  }
+.footer-main {
+  background-color: rgba(0, 0, 0, 0.89);
+  padding: 2.8rem 2.5rem;
+}
 
-  .footer-searchbar > i {
-    background-color: white;
-  }
+.footer-main .title {
+  display: inline-block;
+  color: whitesmoke;
+  margin-top: 1rem;
+}
 
-  .follow-icons {
-    margin-top: 0.8rem;
-    display: flex;
-    width: 90%;
-  }
+.footer-main ul {
+  padding: 0;
+  list-style-type: none;
+}
 
-  .footer-sub span {
-    color: whitesmoke;
-    display: block;
-  }
+.footer-main li {
+  margin-bottom: 0.4rem;
+}
 
-  .icons {
-    margin-left: 2rem;
-    width: 70%;
-  }
+.footer-main a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.521);
+  cursor: pointer;
+}
 
-  .icons a {
-    margin-right: 1rem;
-  }
+.footer-main a:hover {
+  color: rgb(13, 147, 236);
+  text-decoration: underline;
+}
+
+.footer-sub {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.8rem 2.5rem;
+}
+
+.footer-searchbar {
+  display: flex;
+  border: 0.1rem solid gray;
+  width: 95%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-searchbar input {
+  font-size: 1rem;
+  background-color: black;
+  outline: none;
+  border:none;
+  border-right:0px; 
+  border-top:0px; 
+  border-bottom:0px;
+  padding-left : 0.5rem;
+  margin-left: 0.5rem;
+  flex-grow: 2;
+  width: 100%;
+}
+
+.footer-sub a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-top: 0.8rem;
+}
+
+.footer-searchbar > i {
+  background-color: white;
+}
+
+.follow-icons {
+  margin-top: 0.8rem;
+  display: flex;
+  width: 90%;
+}
+
+.footer-sub span {
+  color: whitesmoke;
+  display: block;
+}
+
+.icons {
+  margin-left: 2rem;
+  width: 70%;
+}
+
+.icons a {
+  margin-right: 1rem;
 }
